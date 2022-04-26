@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Title of Presentation --> 
+		<title>TITLE OF YOUR TALK</title>
+
+		<!-- DESCRIPTION OF PRESENTATION  -->
+		<meta name="description" content="DESCRIPTION OF YOUR TALK">
+		<meta name="keywords" content="KEYWORDS FOR YOUR TALK, SEPARATED BY COMMAS">
+		
+		<!-- AUTHOR --> 
+		<meta name="author" content="YOUR NAME">
+
+		<!-- CSS --> 
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css"> <!-- Themes are beige.css, black.css, blood.css, league.css, moon.css, night.css, serif.css, simple.css, sky.css, solarized.css, and white.css -->
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	</head>
+
+		<!-- BEGIN PRESENTATION TIPS AND SHORTCUTS --> 
+
+			<!-- 
+
+			1. Use your left / right arrow keys or space bar to navigate the deck. You can also swipe left / right. 
+			2. Press ESC to enter the slide overview.
+			3. Hold down the alt key (ctrl in Linux) and click on any element to zoom towards it using zoom.js. Click again to zoom back out.
+			4. Note the blue progress bar at the bottom of your slides. 
+			5. See "stylesheet" black.css above, which you can change to modify your theme (colours and whatnot).
+			6. Press the S key to use speaker mode, with notes (asides), slide preview, and timer. 
+
+			-->
+
+		<!-- END PRESENTATION TIPS AND SHORTCUTS --> 
+
+		<!-- BEGIN PRESENTATION --> 
+
+	<body>
+		<div class="reveal">
+
+		<!-- BEGIN VISIBLE SLIDES --> 
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+			
+		<div class="slides">
+
+			<section>
+			<h1>TITLE OF YOUR TALK</h1>
+			<p>YOUR NAME<br>
+			<a href="https://www.uvic.ca/">YOUR AFFILIATION</a></p>
+			<small><hr>CREDITS HERE</small>
+			<aside class="notes">
+			USE THIS ASIDE CLASS TO INCLUDE NOTES FOR YOUR OWN REFERENCE. THEY ARE NOT VISIBLE TO THE AUDIENCE IN PRESENTER VIEW.
+			BUT THEY ARE, OF COURSE, VISIBLE IN THE SOURCE. 
+			</aside>
+			</section>
+
+			<section>
+			<h2>OUTLINE OF YOUR TALK</h2>
+			<p>Part 1<br>
+			Part 2<br>
+			Part 3<br>
+			Part 4</p>
+			<small><hr>CREDITS HERE</small>
+			</section>
+
+			<section id="fragments">
+			<h2>A MORE DRAMATIC OUTLINE</h2>
+			<p class="fragment">Part 1<br>
+			<span class="fragment">Part 2</span><br>
+			<span class="fragment">Part 3</span><br>
+			<span class="fragment">Part 4</span></p>
+			<small><hr>CREDITS HERE</small>
+			</section>
+
+			<section data-background="#999999">
+			<h2>PART 1, NEW COLOUR</h2>
+			<p>A new part<br>
+			A new background colour<br>
+			if you wanna</p>
+			<small><hr>CREDITS HERE</small>
+			</section>
+
+			<section data-background="media/phone.jpg"> <!--place images in the 'media' subfolder' or use a URL -->
+			<div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 15px;">
+			<h2>PART 2, WITH IMAGE</h2>
+			<p>A new part<br>
+			A new background image<br>
+			if you wanna</p>
+			<small><hr>CREDITS HERE</small>
+			</section>
+
+			<section data-background="media/phone.jpg"> <!-- place videos in the 'media' subfolder or use a URL -->
+			<!-- just the image -->
+			</section>
+
+			<section data-background-video="https://github.com/jentery/stanford/blob/gh-pages/images/nina.mov?raw=">
+			<div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 15px;">
+			<h2>PART 3, WITH VIDEO</h2>
+			<p>A new part<br>
+			A new video<br> 
+			But tbh this text box is pretty obnoxious</p>
+			<small>Video care of <a href="https://ninabelojevic.wordpress.com/">Nina Belojevic</a></small>
+			</div>
+			</section>
+
+			<section>
+			<!-- perhaps a small video instead -->
+			<video data-autoplay src="https://github.com/jentery/stanford/blob/gh-pages/images/nina.mov?raw="></video>
+    		<small>Video care of <a href="https://ninabelojevic.wordpress.com/">Nina Belojevic</a></small>
+    		</section>
+
+    		<section data-background-video="https://github.com/jentery/stanford/blob/gh-pages/images/nina.mov?raw=">
+			<!-- perhaps a full-screen video instead (no credits, tho) -->
+    		</section>
+
+    		<section data-background-iframe="https://www.uvic.ca/" data-background-interactive>
+			<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 15px; font-size: 20px; text-align: left;">
+			<h2>PART 4, WITH INTERENT</h2>
+			<p>A new part<br>
+			A new website<br>
+			Try interacting with the background.</p>
+			<small><hr>Website care of UVic.</small>
+			</div>
+			</section>
+
+			<section>
+			<h2>RECAP IN POINT FORM</h2>
+			<p>
+			<ul> <!-- replace ul with ol if you want an ordered / numbered list -->
+			<li>I said . . .</li>
+			<li>Then I said . . .</li>
+			<li>After that I said . . .</li>
+			<li>Finally, I said . . .</li>
+			</ul></p>
+			<small><hr>CREDITS HERE</small>
+			</section>
+
+			<section data-background="https://bucket-957b0m.s3.ca-central-1.amazonaws.com/2021/10/ARTS-andy_warhol-KHATCHIG_ANTEBLIANTHE_VARSITY-web.jpg">
+			<div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 15px;">
+			<h2>END WITH A QUOTE</h2>
+			<blockquote cite="https://interlude.hk/andy-warhol-1928-1987-i-am-a-deeply-superficial-person/">
+			&ldquo;I am a deeply superficial person.&rdquo;
+			</blockquote>
+			<small><hr>Andy Warhol said that.</small>
+			</div>
+			</section>
+
+			<section>
+			<h1>THANK YOU</h1>
+			<p>YOUR NAME<br>
+			<a href="https://www.uvic.ca/">YOUR AFFILIATION</a></p>
+			<small><hr>CREDITS HERE.<br>Add <code>?print-pdf</code> to the end of the URL for <a href="index.html">your first slide</a> and then press CTRL/CMD+P to save your slides in PDF.</small>
+			</section>
+	
+		</div>
+
+		<!-- END VISIBLE SLIDES --> 
+
+		<!-- BEGIN "HIDDEN" TEMPLATES FOR SLIDE STYLES -- >
+
+			<!-- BEGIN STYLE FOR A CODE SLIDE --> 
+
+				<!-- section data-auto-animate>
+					<h2 data-id="code-title">Some Code</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						import React, { useState } from 'react';
+						
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    ...
+						  );
+						}
+					</code></pre>
+					<small><hr>Code care of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+				</section -->
+
+			<!-- END STYLE FOR A CODE SLIDE -->
+
+			<!-- BEGIN STYLE FOR A FIT TEXT SLIDE --->
+
+				<!-- section>
+				<h2 class="r-fit-text">FIT</h2>
+				</section -->
+
+			<!-- END STYLE FOR A FIT TEXT SLIDE --->
+
+		 <!-- END TEMPLATES FOR SLIDE STYLES --->
+			
+		</div>
+
+		<!-- END PRESENTATION --> 
+
+		<!-- BEGIN FEATURES AND PLUGINS --> 
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			
+			Reveal.initialize({
+			
+			// Display controls in the bottom right corner
+    		controls: false,
+
+    		// Display a presentation progress bar
+    		progress: true,
+
+    		// Push each slide change to the browser history
+    		history: true,
+
+			// Vertical centering of slides	
+			center: true,
+
+    		// Change the presentation direction to be RTL
+    		rtl: false,
+
+    		// Add the current slide number to the URL hash so that reloading the page/copying the URL will return you to the same slide
+			hash: true,
+
+			// Set the transition style 
+			transition: 'none',  // none/fade/slide/convex/concave/zoom
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+		</script>
+
+		<!-- END FEATURES AND PLUGINS -->
+	</body>
+</html>
